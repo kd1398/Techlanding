@@ -1,0 +1,106 @@
+/*https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80*/
+
+html{
+    height: 100%;
+}
+
+.navbar-inverse{
+    background-color: white;
+}
+
+.container-fluid{
+    background-color: white;
+
+
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: grey;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    background-color:white;
+    color :#9d9d9d;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color:black;
+}
+
+.navbar-inverse .navbar-brand{
+    color:black;
+}
+
+.navbar-inverse .navbar-brand:hover{
+    background-color: white;
+    color: #9d9d9d;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    font-size: xx-large;
+}
+
+.center{
+    color: white;
+    margin: 0 auto;
+    text-align: center; 
+    padding-top: 200px;
+}
+
+.btn-success{
+    margin-left:46%;
+}
+
+body{
+    background: url('../images/tech1.jpg') ;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+h2{
+    background-color: lightblue;
+    color: black;
+}
+
+#login{
+    min-width:250px;
+    background-color: rgba(255,255,255,0.7);
+    padding: 14px 14px 0;
+}
+
+#login .social-buttons{
+    
+    margin: 12px 0;
+    
+}
+.btn
+{
+    float: left;    
+}
+
+.btn-fb{
+  color:#fff;
+    margin-bottom: 10px;
+    background-color: #3b599d;
+}
+
+.btn-fb:hover{
+  color:#fff;
+    margin-bottom: 5px;
+    background-color: #496ebc;
+}
+
+
+.btn-tw{
+  color:#fff;
+    background-color: #55acee;
+    
+}
+
+.btn-tw:hover{
+  color:#fff;
+    background-color: #55acee;
+    margin-bottom: 5px;
+}
